@@ -96,7 +96,7 @@ elif(month == 12):
     print("31 days");
 else:
     print("invalid enter b/w 1 to 12")
-    
+#19  
 mat = int(input())
 phy = int(input())
 che = int(input())
