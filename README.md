@@ -229,6 +229,23 @@ match(result):
         print("equal")
     case _:
         print("invalid")
+
+
+#4
+a = int(input())
+if a>0:
+    ans = 1
+elif a<0:
+    ans = 2
+else:
+    ans = 3
+match(ans):
+    case 1:
+        print("+ve")
+    case 2:
+        print("-ve")
+    case 3:
+        print("equal to 0")
         
 
 
