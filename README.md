@@ -1,4 +1,6 @@
-#1
+##1
+
+
 a = int(input())
 b = int(input())
 if (a>b):
@@ -6,8 +8,9 @@ if (a>b):
 else:
     print("b is greater")
 
+##2
 
-#2
+
 a = int(input())
 b = int(input())
 c = int(input())
@@ -19,7 +22,9 @@ elif(c>a and c>b):
     print("c is greater")
     
     
-#3
+##3
+
+
 a = int(input())
 if(a>0):
     print("a is positive")
@@ -27,16 +32,18 @@ elif(a<0):
     print("a is negitive")
 else:
     print("a is equal to 0")
-    
-    
-#4
+
+
+##4
+
 n = int(input())
 if(n % 5 == 0 and n % 11 == 0):
     print("n is divisible be 5 And 11")
 else:
     print("not divisible")
     
-#5
+##5
+
 n = int(input())
 if (n%2==0):
     print("even")
