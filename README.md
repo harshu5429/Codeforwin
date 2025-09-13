@@ -1,6 +1,4 @@
 ##1
-
-
 a = int(input())
 b = int(input())
 if (a>b):
@@ -9,8 +7,6 @@ else:
     print("b is greater")
 
 ##2
-
-
 a = int(input())
 b = int(input())
 c = int(input())
@@ -23,8 +19,6 @@ elif(c>a and c>b):
     
     
 ##3
-
-
 a = int(input())
 if(a>0):
     print("a is positive")
@@ -35,7 +29,6 @@ else:
 
 
 ##4
-
 n = int(input())
 if(n % 5 == 0 and n % 11 == 0):
     print("n is divisible be 5 And 11")
@@ -43,7 +36,6 @@ else:
     print("not divisible")
     
 ##5
-
 n = int(input())
 if (n%2==0):
     print("even")
@@ -109,7 +101,6 @@ phy = int(input())
 che = int(input())
 bio = int(input())
 com = int(input())
-
 per = (mat+phy+che+bio+com)/5
 print(f"{per:.2f}",per)
 if per>=90:
@@ -157,8 +148,9 @@ totalamt = amount + surcha
 print(totalamt)
 
 
-### switch cases
+### switch cases:
 
+##1
 n = int(input())
 match(n):
     
@@ -187,7 +179,6 @@ match(n):
         print("invalid")
         
 #2
-
 n = int(input())
 match(n):
     case 1:
